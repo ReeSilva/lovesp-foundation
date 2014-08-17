@@ -1,0 +1,24 @@
+body {
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+div.card-empty {
+  text-align: center;
+  padding: 50px;
+}
+
+div.card {
+  background-color: $card-background-color;
+  box-shadow: $card-h-shadow $card-v-shadow $card-blur-shadow $card-shadow-color;
+  margin-bottom: $card-margin-bottom;
+}
+
+div.form {
+  position: fixed;
+}
